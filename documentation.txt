@@ -1,14 +1,15 @@
 # Project Documentation
 
-##22.12.2018##
+## 22.12.2018
 
 Setting up process of getting data from Homepage, open it,
 count words and exclude special characters from counting process.
 
 Following modules are used in this case:
 
-from urllib import request                                                                                        │[in]: ~/
-from collections import Counter                                                                                   │▷ anaconda3/                 
+from urllib import request                                                                                      
+
+from collections import Counter                                                                                            
 from nltk import word_tokenize
 
 #######26.12.2018#######
