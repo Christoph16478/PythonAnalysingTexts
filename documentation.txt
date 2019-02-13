@@ -1,0 +1,52 @@
+#######22.12.2018#######
+
+Setting up process of getting data from Homepage, open it,
+count words and exclude special characters from counting process.
+
+Following modules are used in this case:
+
+from urllib import request                                                                                        │[in]: ~/
+from collections import Counter                                                                                   │▷ anaconda3/                 
+from nltk import word_tokenize
+
+#######26.12.2018#######
+
+First error occured here:
+"Failed loading english.pickle with nltk.data.load"
+
+solution found on stackoverflow for that problem:
+
+1.
+Got to a prompt Shell
+
+2. 
+Write the following Code:
+
+import nltk.data
+nltk.download()
+
+Press 'Enter'
+
+3.
+The installation window appears.
+
+Go to the 'Models' tab and select 'punkt'
+
+from under the identifier column.
+
+Then click 'Download' and it will install the necessary files.
+
+Then it should work
+
+#######27.12.2018#######
+
+Reading pandas documentation and figuring out what is to do next of all.
+
+
+conda install -c anaconda nltk 
+conda install -c anaconda nltk
+conda install -c districtdatalabs yellowbrick
+conda install -c conda-forge wordcloud
+conda install -c anaconda numpy
+conda install -c conda-forge matplotlib
+conda install -c chen pycharm
