@@ -1,4 +1,4 @@
-# Project Documentation
+# Projectdocumentation
 
 ## 22.12.2018
 
@@ -12,7 +12,7 @@ from urllib import request
 from collections import Counter                                                                                            
 from nltk import word_tokenize
 
-#######26.12.2018#######
+## 26.12.2018
 
 First error occured here:
 "Failed loading english.pickle with nltk.data.load"
@@ -41,10 +41,11 @@ Then click 'Download' and it will install the necessary files.
 
 Then it should work
 
-#######27.12.2018#######
+## 27.12.2018
 
-Reading pandas documentation and figuring out what is to do next of all.
+Reading pandas documentation
 
+Installing finally the following libraries:
 
 conda install -c anaconda nltk 
 conda install -c anaconda nltk
@@ -53,3 +54,12 @@ conda install -c conda-forge wordcloud
 conda install -c anaconda numpy
 conda install -c conda-forge matplotlib
 conda install -c chen pycharm
+
+## 13.02.2019
+
+Creating a virtual environment and upload the first try in my own repository.
+
+Following sites were very useful:
+https://ipython.readthedocs.io/en/stable(install(kernel_install.html
+https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/20/conda/
+
