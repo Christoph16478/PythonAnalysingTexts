@@ -19,27 +19,20 @@ First error occured here:
 
 solution found on stackoverflow for that problem:
 
-1.
-Got to a prompt Shell
+1. Got to a prompt Shell
 
-2. 
-Write the following Code:
+2. Write the following Code:
 
 import nltk.data
 nltk.download()
 
 Press 'Enter'
 
-3.
-The installation window appears.
+3. The installation window appears.
 
-Go to the 'Models' tab and select 'punkt'
-
-from under the identifier column.
-
-Then click 'Download' and it will install the necessary files.
-
-Then it should work
+4. Go to the 'Models' tab and select 'punkt' from the identifier column.
+   
+5. Then click 'Download' and it will install the necessary files.
 
 ## 27.12.2018
 
@@ -48,7 +41,6 @@ Reading pandas documentation
 Installing finally the following libraries:
 
 conda install -c anaconda nltk 
-conda install -c anaconda nltk
 conda install -c districtdatalabs yellowbrick
 conda install -c conda-forge wordcloud
 conda install -c anaconda numpy
@@ -57,7 +49,7 @@ conda install -c chen pycharm
 
 ## 13.02.2019
 
-Creating a virtual environment and upload the first try in my own repository.
+Creating a virtual environment and upload the first try in a repository on my github account.
 
 Following sites were very useful:
 https://ipython.readthedocs.io/en/stable(install(kernel_install.html
