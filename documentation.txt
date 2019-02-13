@@ -1,4 +1,6 @@
-#######22.12.2018#######
+# Project Documentation
+
+##22.12.2018##
 
 Setting up process of getting data from Homepage, open it,
 count words and exclude special characters from counting process.
