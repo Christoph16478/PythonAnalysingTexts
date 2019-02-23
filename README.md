@@ -36,18 +36,3 @@ It is just a small documentation about how the creation process of the project w
 ### stopwords_de.txt
 ### stopwords_en.txt
 These are the lists, containing words which are not required for the analysation process.
-
-### program_debugging.ipynb
-It is an exact copy of "program.ipynb". Only difference is, that there is a program integrated, called pixie_debugger,
-which allows to debug jupyter notebooks.
-
-The program is called "pixie_debugger" from a Company called "pixiedust".
-
-Link to the pixiedebugger is below:
-https://www.analyticsvidhya.com/blog/2018/07/pixie-debugger-python-debugging-tool-jupyter-notebooks-data-scientist-must-use/
-
-It is to mention that there was only a try given to that debugger.
-
-IMPORTANT NOTE: pixiedebugger hast to be installed a part
-  
-  pip install pixiedust
