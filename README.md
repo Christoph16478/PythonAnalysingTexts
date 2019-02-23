@@ -1,8 +1,10 @@
 # final_project
 
-It is a very tiny project text analyzation. The setup is the following:
+It is a very tiny project on text analysation.
 
-First off all there is a text dokumente read and opened from the Internet.
+The setup is the following:
+
+First of all, there is a text document read and opened from the Internet.
 
 Than stopwords and special characters are removed from it.
 
@@ -14,13 +16,15 @@ Afterwards following analysation is processed:
     Lexical dispersion plot
     Searching for specific words or sequence of characters occurin in these words
 
-After executing these  words the output is already shown in the jupyter notebook itself.
+After execution, the output is already shown in the jupyter notebook itself.
 
 Explication of the containing files:
 
 ## requirements.txt
-If you want to use the code in that rpoject, first of all you have to set up a specific environment called "fenv".
-for doing that please follwo the instructions in the "requirements.txt" file.
+If you want to use the code in that project, first of all you have to set up
+a specific environment called "fenv".
+
+For doing that please follwo the instructions in the "requirements.txt" file.
 
 ## program.ipynb
 That is the main program. Simply open int in a jupyter notebook
@@ -32,3 +36,14 @@ It is just a small documentation about how the creation process of the project
 ## stopwords_de.txt
 ## stopwords_en.txt
 These are the list containing words which are not required for the analysation.
+
+## program_debugging.ipynb
+It is an exact copy of "program.ipynb". only difference is, that there is a
+called "pixie_debugger" from a Company called pixiedust.
+
+Link or the pixiedebugger is below:
+https://www.analyticsvidhya.com/blog/2018/07/pixie-debugger-python-debugging-tool-jupyter-notebooks-data-scientist-must-use/)
+
+it is to mention that there was only a try given to that debugger.
+
+

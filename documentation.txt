@@ -2,13 +2,22 @@
 
 ## 22.12.2018
 
-Setting up process of getting data from Homepage, open it,
+Setting up the process of getting data from homepage, open it,
 count words and exclude special characters from counting process.
 
 Following modules are used in this case:
-from urllib import request                                                                                      
-from collections import Counter                                                                                            
-from nltk import word_tokenize
+
+  from urllib               import request
+  from collections          import Counter
+  from nltk                 import word_tokenize, FreqDist
+  from wordcloud            import WordCloud
+  from nltk.corpus          import stopwords
+
+  import numpy              as np
+  import matplotlib.pyplot  as plt
+  import random
+  import nltk
+  import requests
 
 ## 26.12.2018
 
@@ -16,14 +25,14 @@ First error occured here:
 "Failed loading english.pickle with nltk.data.load"
 
 solution found on stackoverflow for that problem:
-1. Got to a prompt Shell
-2. Write the following Code:
-3. import nltk.data
-   nltk.download()
-4. Press 'Enter'
-5. The installation window appears.
-6. Go to the 'Models' tab and select 'punkt' from the identifier column.
-7. Then click 'Download' and it will install the necessary files.
+  1. Got to a prompt Shell
+  2. Write the following Code:
+  3. import nltk.data
+     nltk.download()
+  4. Press 'Enter'
+  5. The installation window appears.
+  6. Go to the 'Models' tab and select 'punkt' from the identifier column.
+  7. Then click 'Download' and it will install the necessary files.
 
 ## 27.12.2018
 
@@ -31,25 +40,26 @@ Reading pandas documentation
 
 Installing finally the following libraries:
 Simply copied the following instructions in the terminal and execute
-conda install -c anaconda nltk 
-conda install -c districtdatalabs yellowbrick
-conda install -c conda-forge wordcloud
-conda install -c anaconda numpy
-conda install -c conda-forge matplotlib
-conda install -c chen pycharm
+
+  conda install -c anaconda nltk 
+  conda install -c ulmo urllib3
+  conda install -c conda-forge wordcloud
+  conda install -c anaconda numpy
+  conda install -c conda-forge matplotlib
 
 ## 13.02.2019
 
 Creating a virtual environment and upload the first try in a repository on my github account.
 
 Following sites were very useful:
-https://ipython.readthedocs.io/en/stable(install(kernel_install.html
-https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/20/conda/
+
+  https://ipython.readthedocs.io/en/stable(install(kernel_install.html
+  https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/20/conda/
 
 ## 17.02.2019
 
 Structuring the whole writing of "README.md" and "documentation.txt"
-Means what and how to wirte.
+Strucuturing means what and how to wirte.
 
 ## 20.02.2019
 
@@ -60,6 +70,9 @@ Adding Output for specific letters in words.
 Adding more specifications and doing some testing.
 
 Trying to do some debugging in the file called "program_debugging.ipynb".
+The program used for debugging called pixiedebugger.
+
+
 
 
 
