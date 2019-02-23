@@ -3,9 +3,9 @@
 ## 22.12.2018
 
 Setting up the process of getting data from homepage, open it,
-count words and exclude special characters from counting process.
+count words and exclude special characters from counted words.
 
-Following modules are used in this case:
+Following modules are used in this project:
 
   from urllib               import request
   from collections          import Counter
@@ -22,16 +22,18 @@ Following modules are used in this case:
 ## 26.12.2018
 
 First error occured here:
-"Failed loading english.pickle with nltk.data.load"
+"Failed loading english.pickle with nltk.data.load".
 
-solution found on stackoverflow for that problem:
-  1. Got to a prompt Shell
+Solution found on stackoverflow for that problem:
+https://stackoverflow.com/questions/4867197/failed-loading-english-pickle-with-nltk-data-load
+  
+  1. Go to a prompt Shell
   2. Write the following Code:
   3. import nltk.data
      nltk.download()
   4. Press 'Enter'
   5. The installation window appears.
-  6. Go to the 'Models' tab and select 'punkt' from the identifier column.
+  6. Go to the 'Models' tab and select 'Punkt' from the identifier column.
   7. Then click 'Download' and it will install the necessary files.
 
 ## 27.12.2018
@@ -39,7 +41,7 @@ solution found on stackoverflow for that problem:
 Reading pandas documentation
 
 Installing finally the following libraries:
-Simply copied the following instructions in the terminal and execute
+Simply copied the following instructions in the terminal and execute:
 
   conda install -c anaconda nltk 
   conda install -c ulmo urllib3
@@ -58,12 +60,12 @@ Following sites were very useful:
 
 ## 17.02.2019
 
-Structuring the whole writing of "README.md" and "documentation.txt"
-Strucuturing means what and how to wirte.
+Structuring the whole writting of "README.md" and "documentation.txt"
+Structuring means what and how to wirte.
 
 ## 20.02.2019
 
-Adding Output for specific letters in words.
+Adding output for specific letters in words.
 
 # 22.02.2018
 
@@ -72,15 +74,4 @@ Adding more specifications and doing some testing.
 Trying to do some debugging in the file called "program_debugging.ipynb".
 The program used for debugging called pixiedebugger.
 
-
-
-
-
-
-
-
-
-
-
-
-
+Final vewrsion is done.
