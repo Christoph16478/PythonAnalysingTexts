@@ -21,7 +21,7 @@ Following modules are used in this project:
 
 ## 26.12.2018
 
-First error occured here:
+Error occured here:
 "Failed loading english.pickle with nltk.data.load".
 
 Solution found on stackoverflow for that problem:
@@ -40,8 +40,7 @@ https://stackoverflow.com/questions/4867197/failed-loading-english-pickle-with-n
 
 Reading pandas documentation
 
-Installing finally the following libraries:
-Simply copied the following instructions in the terminal and execute:
+Installing finally the following libraries by simply execute following instructions:
 
   conda install -c anaconda nltk 
   conda install -c ulmo urllib3
@@ -74,4 +73,4 @@ Adding more specifications and doing some testing.
 Trying to do some debugging in the file called "program_debugging.ipynb".
 The program used for debugging called pixiedebugger.
 
-Final vewrsion is done.
+First final version is done.
