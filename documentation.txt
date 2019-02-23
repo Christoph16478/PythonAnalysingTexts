@@ -55,6 +55,12 @@ Means what and how to wirte.
 
 Adding Output for specific letters in words.
 
+# 22.02.2018
+
+Adding more specifications and doing some testing.
+
+Trying to do some debugging in the file called "program_debugging.ipynb".
+
 
 
 
