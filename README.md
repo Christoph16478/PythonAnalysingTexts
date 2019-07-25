@@ -1,6 +1,6 @@
 # Analyse Text with python
 
-It is a very tiny project on text analysation.
+It is a project on text analysation.
 
 ## The whole execution process is structured as following:
 
