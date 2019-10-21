@@ -29,10 +29,3 @@ For doing that please follow the instructions in the "requirements.txt" file.
 ### program.ipynb
 That is the main program. Simply open it in a jupyter notebook.
 Do not forget: Maybe you have to change kernel to the specific environment called "fenv".
-
-### documentation.txt
-It is just a small documentation about how the creation process of the project was designed and executed.
-
-### stopwords_de.txt
-### stopwords_en.txt
-These are the lists, containing words which are not required for the analysation process.
