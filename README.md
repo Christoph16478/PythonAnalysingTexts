@@ -23,8 +23,7 @@ Explication of the containing files:
 ### requirements.txt
 If you want to use the code in that project, first of all you have to
 set up the specific environment called "fenv".
-
-For doing that please follow the instructions in the "requirements.txt" file.
+For doing so please follow the instructions in the "requirements.txt" file.
 
 ### program.ipynb
 That is the main program. Simply open it in a jupyter notebook.
