@@ -6,5 +6,5 @@ It is a project on text analysation. For detailed information read the file itse
 
 [Click here](https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/install.html)
 
-## used dataset.
+## Used dataset.
 Top 20 famous ebboks i nenglish on [Project Gutenberg](https://www.gutenberg.org/)
