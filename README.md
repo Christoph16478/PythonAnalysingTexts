@@ -7,4 +7,6 @@ It is a project on text analysation. For detailed information read the file itse
 [Click here](https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/install.html)
 
 ## Used dataset.
-Top 20 famous ebboks i nenglish on [Project Gutenberg](https://www.gutenberg.org/)
+Top 20 famous ebooks i nenglish on [Project Gutenberg](https://www.gutenberg.org/)
+
+### For more information check out the "index.html" file. It views code and documentation.
